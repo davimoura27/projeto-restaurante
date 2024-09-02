@@ -1,0 +1,238 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e63946;
+    color: aliceblue;
+    width: 100vw;
+    height: 17vh;
+    font-size: 2rem;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    
+}
+.navbar a{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+.sobre{
+    background-image: url(./imagem\ sobre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.sobre h1{
+    max-width: 40%;
+}
+.main{
+    padding: 1rem;
+}
+#historia{
+ display: flex;
+ gap: 15px;
+ justify-content: center;
+ flex-direction: column;
+ color: #e63946;
+}
+.sobrenos{
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+}
+.cardapio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    gap: 43px;
+    
+}
+.feijoada{
+    width: 30vw;
+    height: 45vh;
+}
+.moqueca{
+    width: 30vw;
+    height: 45vh;
+}
+.pão{
+    width: 30vw;
+    height: 45vh;
+}
+#menu{
+    color: #e63946;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 25px;
+}
+.menu h1{
+    font-size: 3rem;
+    
+    
+}
+.menu1{
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+    gap: 15px;
+    
+}
+#pedidoonline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    gap: 25px; 
+    margin-top: 2rem; 
+    color: #e63946;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+fieldset{
+    width: 35vw;
+    height:  auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 7rem;
+   border-color: #e63946;
+   border-width: 1px;
+  
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+    width: 20rem;
+    border-color: #e63946;
+    border-width: 1px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+::placeholder{
+    color: #e63946;
+}
+select{
+    color: #e63946;
+    border-color: #e63946;
+}
+label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  
+}
+input[type="radio"]{
+  margin-right: 10px;
+  accent-color: #e63946;
+ 
+}
+button{
+    width: 8rem;
+    height: 4vh;
+   background-color: #e63946;
+   color: #ffffff;
+   border: #e63946;
+   
+}
+
+@media (max-width:430px){
+  .navbar h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .sobre{
+    font-size: 1rem;
+  }
+    #historia{
+      padding: 2rem;
+    }
+    #menu{
+        padding: 2rem;
+       
+    }
+    .menu1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align:justify;
+    }
+    .cardapio{
+        gap: 12px;
+        width: 10vw;
+    
+    }
+    .feijoada{
+        width: 28vw;
+            height: 20vh;
+    }
+    .pão{
+width: 28vw;
+    height: 20vh;
+    }
+    .moqueca{
+width: 28vw;
+    height: 20vh;
+    }
+    #pedidoonline{
+        width: 90vw;
+    }
+   fieldset{
+    width: 10vw;
+    padding-left: 1rem;
+   }
+   input[type="text"],
+   input[type="tel"],
+   select,
+   textarea {
+       width: 10rem;
+      
+   }
+   button{
+    height: 3vh;
+    width: 5rem;
+   }
+}
